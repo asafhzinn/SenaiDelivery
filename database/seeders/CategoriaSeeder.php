@@ -34,5 +34,12 @@ class CategoriaSeeder extends Seeder
                 'ativo' => true,
                 'ordem_exibicao' => 3
             ]);
+
+            Categoria::create([
+                'nome' => 'Sobremesas',
+                'descricao' => 'Sobremesas diversas',
+                'ativo' => true,
+                'ordem_exibicao' => 4
+            ]);
     }
 }
